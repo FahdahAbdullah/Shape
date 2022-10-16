@@ -19,7 +19,13 @@ public class Rectangle {
         return area; //  code to calculate area here
     } 
     
-    // write code to calculate perimeter here
-    // getPerimeter()
+    //  code to calculate perimeter here
+    int getPerimeter() {
+	int perimeter = 2 * (length + breadth);
+        //Return Rectangle perimeter.
+        return  perimeter;
+}
+
+    
     
 }
